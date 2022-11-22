@@ -1,0 +1,55 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="rabbit.css">
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous"> -->
+</head>
+
+<body style="background-color: #956233;">
+  <div style="text-align: center;">
+    <div style="width:100%;">
+      <img src="road-1.png" style="height:100%;width:500px" alt="">
+      <img src="rabit-2.png" class="rabit" alt="">
+      <img src="book.png" onClick="openModel('Milestone-1')" class="book milestone milestone-1" alt="">
+      <img src="book.png" onClick="openModel('Milestone-2')" class="book1 milestone milestone-2" alt="">
+      <img src="why-crpto.png" class="why-crpto" alt="">
+    </div>
+    <div style="width:100%;">
+      <img src="road-1.png" style="height:100%;width:500px;margin-right:130px" alt="">
+      <img src="book.png" onclick="openModel('Milestone-3')" class="book milestone milestone-3" alt="">
+      <img src="book.png" onclick="openModel('Milestone-4')" class="book1 milestone milestone-4" alt="">
+      <img src="world-need.png" class="world-need" alt="">
+    </div>
+
+  </div>
+
+  <div id="myModal" class="modal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+            <div style="width:50%">
+              <h4 class="modal-title" id="title"></h4>
+            </div>
+            <div style="width:20%">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal-body">
+          <div id="caption"></div>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+
+
+  <script src="rabbit.js"> </script>
+
+</body>
+
+</html>
